@@ -42,6 +42,8 @@ def extract_video_file(input_filename, output_filename, output_fps, output_width
 
 
 if __name__ == '__main__':
+    print 'Format: video_utilities.py <input_filename> <output_filename> <output_fps> <output_width>'
+
     import sys
     argv = sys.argv
     print argv
